@@ -6,7 +6,6 @@ Namespace example
 
 #Import "assets/"
 
-
 Using std..
 Using mojo..
 Using simplevideo..
@@ -31,7 +30,7 @@ Class AppWindow Extends Window
 		' update and render video:
 		vid.Update()
 		canvas.Color = Color.White
-		canvas.DrawRect( 0,0,Width,Height,vid.Image )
+		canvas.DrawRect(0, 0, Width, Height, vid)
 		
 		' draw pause button when paused
 		If vid.IsPaused() Then
