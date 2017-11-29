@@ -37,7 +37,7 @@ Class AppWindow Extends Window
         Super.New(title, width, height)
         
         'Super.New(title, width, height)
-        video = Video.Load("/home/thomas/Projects2/LIBS/video/mini-example/assets/video.ogv")
+        video = Video.Load("/path/to/your/video.ogv")
         video.Play()
     End
     
