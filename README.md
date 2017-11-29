@@ -36,7 +36,7 @@ Class AppWindow Extends Window
     Method New(title:String, width:Int, height:Int)
         Super.New(title, width, height)
         
-        'Super.New(title, width, height)
+        ' load and start playing video:
         video = Video.Load("/path/to/your/video.ogv")
         video.Play()
     End
