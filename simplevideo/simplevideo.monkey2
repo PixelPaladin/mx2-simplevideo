@@ -120,6 +120,12 @@ Public
 		Return image
 	End
 	
+	#rem monkeydoc The video image (conversion operator - can be used to render it into an canvas).
+	#end
+	Operator To:Image()
+		Return image
+	End
+	
 	#rem monkeydoc Returns true if video has ended.
 	#end
 	Method IsDone:Bool()
